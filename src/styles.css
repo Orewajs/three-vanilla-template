@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* overflow: hidden; */
+}
+
+section {
+  min-height: 100vh;
+  position: relative;
+}
+
+#experience {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  /* z-index: -1; */
+}
+
+h1 {
+  font-size: 2rem;
+  color: azure;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
